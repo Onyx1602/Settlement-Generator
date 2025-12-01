@@ -1,0 +1,54 @@
+{
+    "name": "Aid the Poor",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "1",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 6
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Goodwill",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Common Folk",
+                        "relationship": "friend",
+                        "description": "The poor and downtrodden see you as a protector."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Street Level View",
+                        "type": "gossip",
+                        "description": "You hear stories of how life really is in the slums and alleys."
+                    }
+                ]
+            }
+        ],
+        "description": "You donate time, coin, and effort to help those in need."
+    },
+    "tags": []
+}

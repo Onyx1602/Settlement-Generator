@@ -1,0 +1,115 @@
+{
+    "name": "Coin Closure",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Moneychanger's Booth",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Moneychanger",
+                    "access": "public",
+                    "features": [
+                        "Lockbox counter",
+                        "Ledger desk"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Coin Scales",
+                        "Exchange Slips",
+                        "Loan Records",
+                        "Strongboxes"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 3,
+                            "wealth": 8,
+                            "luxuries": 3,
+                            "materials": 1,
+                            "industry": 0,
+                            "magic": 0,
+                            "science": 2,
+                            "influence": 5,
+                            "housing": 0,
+                            "order": 1,
+                            "food": 0
+                        }
+                    },
+                    "description": "Small coin closure serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 3,
+            "wealth": 8,
+            "luxuries": 3,
+            "materials": 1,
+            "industry": 0,
+            "magic": 0,
+            "science": 2,
+            "influence": 5,
+            "housing": 0,
+            "order": 1,
+            "food": 0
+        },
+        "demographics": {
+            "population": 4,
+            "social_structure": "wealthy financiers",
+            "notable_groups": [
+                "Moneylenders",
+                "Tax Collectors"
+            ],
+            "notableNPCs": [
+                "Master of Coin Relvar",
+                "Suspicious Clerk"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Guard-patrolled side street",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Robbers"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on coin closure trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

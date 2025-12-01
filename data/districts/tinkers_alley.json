@@ -1,0 +1,117 @@
+{
+    "name": "Tinker's Alley",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Tinker's Workshop",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Tinker",
+                    "access": "public",
+                    "features": [
+                        "Workbenches cluttered with tools",
+                        "Hanging lanterns and clockwork trinkets"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Simple Tools",
+                        "Lanterns",
+                        "Clockwork Toys",
+                        "Locks",
+                        "Cooking Utensils"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 9,
+                            "wealth": 4,
+                            "luxuries": 2,
+                            "materials": 5,
+                            "industry": 2,
+                            "magic": 1,
+                            "science": 3,
+                            "influence": 1,
+                            "housing": 1,
+                            "order": 0,
+                            "food": 1
+                        }
+                    },
+                    "description": "Small tinker's alley serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 9,
+            "wealth": 4,
+            "luxuries": 2,
+            "materials": 5,
+            "industry": 2,
+            "magic": 1,
+            "science": 3,
+            "influence": 1,
+            "housing": 1,
+            "order": 0,
+            "food": 1
+        },
+        "demographics": {
+            "population": 7,
+            "social_structure": "crafty tinkers",
+            "notable_groups": [
+                "Tinker Caravan",
+                "Local Inventors"
+            ],
+            "notableNPCs": [
+                "Tinkerer Fesk",
+                "Gnome Clockmaker Pilli"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Twisting back alley",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Shoddy repairs",
+                    "Experimental mishaps"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on tinker's alley trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

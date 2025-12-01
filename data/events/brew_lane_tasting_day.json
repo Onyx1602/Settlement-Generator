@@ -1,0 +1,9 @@
+{
+    "name": "Tasting Day",
+    "type": "event",
+    "data": {
+        "season": "Fall",
+        "description": "Brewers tap experimental casks and invite townsfolk to sample seasonal ales in a rowdy but friendly atmosphere."
+    },
+    "tags": []
+}

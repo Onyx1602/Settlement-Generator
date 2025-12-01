@@ -1,0 +1,55 @@
+{
+    "name": "Craft Goods",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "1",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 8
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Finished Goods",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 50,
+                    "gp": 5,
+                    "pp": 0
+                },
+                "items": [
+                    {
+                        "name": "Crafted Goods",
+                        "quantity": 1
+                    }
+                ],
+                "xp": "",
+                "skills": [
+                    "artisan's tools"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Workshop Owner",
+                        "relationship": "acquaintance",
+                        "description": "You rented space in a local workshop."
+                    }
+                ],
+                "knowledge": []
+            }
+        ],
+        "description": "You spend time crafting mundane goods for sale or personal use."
+    },
+    "tags": []
+}

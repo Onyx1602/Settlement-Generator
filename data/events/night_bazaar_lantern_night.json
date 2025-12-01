@@ -1,0 +1,9 @@
+{
+    "name": "Lantern Night",
+    "type": "event",
+    "data": {
+        "season": "Fall",
+        "description": "The bazaar is lit only by paper lanterns and star-glass, with discounted wares and whispered deals until dawn."
+    },
+    "tags": []
+}

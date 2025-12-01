@@ -1,0 +1,79 @@
+{
+  "name": "Archives",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Archivist Elira Vaun",
+    "access": "Quiet reading hall open to the public; archives by permission only.",
+    "features": [
+      "Reading desks",
+      "Locked archives",
+      "Copying desks",
+      "Ink and parchment stores"
+    ],
+    "services": [
+      "Scribing contracts",
+      "Copying maps and texts",
+      "Literacy lessons"
+    ],
+    "security": "Locked archives, strict silence rules, and a discreet warding charm.",
+    "upkeep": 28,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Legal forms and contracts",
+      "Blank parchment",
+      "Ink and quills",
+      "Reference tomes",
+      "Map copies"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Scribes and clerks",
+        "Scholars",
+        "Officials and lawyers"
+      ],
+      "typicalWorkers": [
+        "Archivist",
+        "Junior scribe",
+        "Copyist"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Parchment",
+        "Ink",
+        "Rare tomes"
+      ],
+      "exports": [
+        "Legal documents",
+        "Copied manuscripts"
+      ],
+      "labor_cost": 16,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 1,
+        "luxuries": 0,
+        "materials": 0,
+        "industry": 1,
+        "magic": 1,
+        "science": 2,
+        "influence": 2,
+        "housing": 0,
+        "order": 1,
+        "food": 0
+      }
+    },
+    "description": "A hushed hall of parchment and ink where contracts are penned, histories recorded, and secrets archived."
+  },
+  "tags": [
+    "building"
+  ]
+}

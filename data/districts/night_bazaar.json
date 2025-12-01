@@ -1,0 +1,116 @@
+{
+    "name": "Night Bazaar",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Lantern-Lit Stall",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Night Vendor",
+                    "access": "public",
+                    "features": [
+                        "Paper lanterns",
+                        "Hidden storage crates"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Curios",
+                        "Street Food",
+                        "Cheap Charms",
+                        "Second-Hand Goods"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 9,
+                            "wealth": 3,
+                            "luxuries": 3,
+                            "materials": 2,
+                            "industry": 0,
+                            "magic": 1,
+                            "science": 0,
+                            "influence": 3,
+                            "housing": 0,
+                            "order": -3,
+                            "food": 5
+                        }
+                    },
+                    "description": "Small night bazaar serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 9,
+            "wealth": 3,
+            "luxuries": 3,
+            "materials": 2,
+            "industry": 0,
+            "magic": 1,
+            "science": 0,
+            "influence": 3,
+            "housing": 0,
+            "order": -3,
+            "food": 5
+        },
+        "demographics": {
+            "population": 11,
+            "social_structure": "night workers and drifters",
+            "notable_groups": [
+                "Street Urchins",
+                "Shady Dealers"
+            ],
+            "notableNPCs": [
+                "Whisper Kall (Fence)",
+                "Fortune-Teller Mira"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Dimly lit square",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Thieves",
+                    "Smugglers"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on night bazaar trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Guard Duty",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 10
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Steady Pay",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 20,
+                    "gp": 2,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "perception"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Merchant or Noble",
+                        "relationship": "employer",
+                        "description": "You guard a caravan, warehouse, or estate."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Security Layouts",
+                        "type": "lore",
+                        "description": "You become familiar with one location's routines and defenses."
+                    }
+                ]
+            }
+        ],
+        "description": "You stand watch, protect valuable goods, or escort travelers."
+    },
+    "tags": []
+}

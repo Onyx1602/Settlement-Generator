@@ -1,0 +1,79 @@
+{
+  "name": "Council Hall",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Council Speaker Mereth Aul",
+    "access": "Public gallery open during sessions; offices restricted.",
+    "features": [
+      "Council chamber",
+      "Public gallery",
+      "Record archive",
+      "Side offices"
+    ],
+    "services": [
+      "Civic administration",
+      "Law-making",
+      "Public hearings"
+    ],
+    "security": "City guard presence, locked records, and panic bells.",
+    "upkeep": 60,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Council records",
+      "Decree templates",
+      "Seals and signets",
+      "Office supplies"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Petitioners",
+        "Guild representatives",
+        "Visiting dignitaries"
+      ],
+      "typicalWorkers": [
+        "Council speaker",
+        "Clerks and scribes",
+        "Advisors",
+        "Door guards"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Ink and parchment",
+        "Seals and regalia",
+        "Furniture"
+      ],
+      "exports": [
+        "Laws and decrees",
+        "Permits and charters"
+      ],
+      "labor_cost": 26,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 1,
+        "luxuries": 1,
+        "materials": 0,
+        "industry": 0,
+        "magic": 0,
+        "science": 1,
+        "influence": 4,
+        "housing": 0,
+        "order": 3,
+        "food": 0
+      }
+    },
+    "description": "The political heart of the settlement, where robed councilors debate policy and issue decrees that shape daily life."
+  },
+  "tags": [
+    "building"
+  ]
+}

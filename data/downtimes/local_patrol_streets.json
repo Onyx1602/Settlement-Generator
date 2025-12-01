@@ -1,0 +1,57 @@
+{
+    "name": "Patrol the Streets",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 8
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Keep the Peace",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 15,
+                    "gp": 1,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "perception",
+                    "intimidation"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "City Guard",
+                        "relationship": "ally",
+                        "description": "Members of the watch appreciate your help."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Crime Patterns",
+                        "type": "lore",
+                        "description": "You learn about recent criminal activity in the area."
+                    }
+                ]
+            }
+        ],
+        "description": "You walk the streets, intervening in trouble and aiding the local watch."
+    },
+    "tags": []
+}

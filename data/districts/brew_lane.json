@@ -1,0 +1,115 @@
+{
+    "name": "Brew Lane",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Microbrewery",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Brewer",
+                    "access": "public",
+                    "features": [
+                        "Ale barrels stacked high",
+                        "Copper brewing kettles"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Small-Batch Ales",
+                        "Ciders",
+                        "Herbal Beers",
+                        "Empty Kegs",
+                        "Malt and Hops"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 7,
+                            "wealth": 4,
+                            "luxuries": 3,
+                            "materials": 2,
+                            "industry": 1,
+                            "magic": 0,
+                            "science": 1,
+                            "influence": 2,
+                            "housing": 1,
+                            "order": -1,
+                            "food": 3
+                        }
+                    },
+                    "description": "Small brew lane serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 7,
+            "wealth": 4,
+            "luxuries": 3,
+            "materials": 2,
+            "industry": 1,
+            "magic": 0,
+            "science": 1,
+            "influence": 2,
+            "housing": 1,
+            "order": -1,
+            "food": 3
+        },
+        "demographics": {
+            "population": 9,
+            "social_structure": "brewers and tavernfolk",
+            "notable_groups": [
+                "Brewers' Circle"
+            ],
+            "notableNPCs": [
+                "Brewmaster Horg",
+                "Barmaid Kessa"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Gently sloped lane for barrel rolling",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Barroom brawls"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on brew lane trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

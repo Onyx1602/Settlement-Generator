@@ -1,0 +1,117 @@
+{
+    "name": "Livestock Yards",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Auction Pen",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Livestock Broker",
+                    "access": "public",
+                    "features": [
+                        "Fenced pens",
+                        "Raised auction block"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Cattle",
+                        "Goats",
+                        "Sheep",
+                        "Draft Horses",
+                        "Feed Sacks"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 6,
+                            "wealth": 3,
+                            "luxuries": 0,
+                            "materials": 6,
+                            "industry": 1,
+                            "magic": 0,
+                            "science": 0,
+                            "influence": 2,
+                            "housing": 1,
+                            "order": -2,
+                            "food": 9
+                        }
+                    },
+                    "description": "Small livestock yards serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 6,
+            "wealth": 3,
+            "luxuries": 0,
+            "materials": 6,
+            "industry": 1,
+            "magic": 0,
+            "science": 0,
+            "influence": 2,
+            "housing": 1,
+            "order": -2,
+            "food": 9
+        },
+        "demographics": {
+            "population": 7,
+            "social_structure": "rural traders",
+            "notable_groups": [
+                "Ranchers",
+                "Drovers"
+            ],
+            "notableNPCs": [
+                "Yardmaster Bren",
+                "Traveling Drover"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Packed dirt lanes",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Stampedes",
+                    "Rustlers"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on livestock yards trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

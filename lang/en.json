@@ -1,0 +1,37 @@
+{
+  "settlement-tracking.title": "Settlement Generator",
+  "settlement-tracking.headerButton": "Settlement Generator",
+  "settlement-tracking.instructions": "Fill out the details below or randomize. Use the lock icons to keep specific fields unchanged.",
+  "settlement-tracking.lockTooltip": "Click or right-click to lock/unlock",
+  "settlement-tracking.none": "(None)",
+  "settlement-tracking.noChildren": "No child settlements detected.",
+  "settlement-tracking.builtNotice": "Settlement created/updated.",
+
+  "settlement-tracking.fields.name": "Name",
+  "settlement-tracking.fields.allegiance": "Allegiance (Organization/Nation)",
+  "settlement-tracking.fields.population": "Population",
+  "settlement-tracking.fields.notableNpcs": "Notable NPCs",
+  "settlement-tracking.fields.notableOrgs": "Notable Organizations",
+  "settlement-tracking.fields.buildings": "Building List",
+  "settlement-tracking.fields.buildingsHelp": "Hold Ctrl/Cmd to select multiple buildings.",
+  "settlement-tracking.fields.parent": "Parent Settlement",
+  "settlement-tracking.fields.children": "Child Settlements",
+  "settlement-tracking.fields.description": "Description",
+  "settlement-tracking.fields.resources.title": "Resources",
+  "settlement-tracking.fields.resources.consumerGoods": "Consumer Goods",
+  "settlement-tracking.fields.resources.wealth": "Wealth",
+  "settlement-tracking.fields.resources.luxuries": "Luxuries",
+  "settlement-tracking.fields.resources.materials": "Materials",
+  "settlement-tracking.fields.resources.food": "Food",
+
+  "settlement-tracking.placeholders.npcs": "One per line…",
+  "settlement-tracking.placeholders.orgs": "One per line…",
+  "settlement-tracking.placeholders.description": "Overview, history, hooks…",
+
+  "settlement-tracking.actions.build": "Generate Settlement",
+  "settlement-tracking.actions.randomize": "Randomize",
+
+  "settlement-tracking.building.owner": "Owner",
+  "settlement-tracking.building.description": "Description",
+  "settlement-tracking.building.defaultInventory": "Default Inventory"
+}

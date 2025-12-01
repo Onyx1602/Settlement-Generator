@@ -1,0 +1,47 @@
+{
+  "name": "",
+  "type": "building",
+  "data": {
+    "ownerTitle": "",
+    "access": "",
+    "features": [],
+    "services": [],
+    "security": "",
+    "upkeep": 0,
+    "hoursOfOperation": {
+      "open": {
+		  "hour": 8,
+		  "minute": 0
+	  },
+      "close": {
+		  "hour": 20,
+		  "minute": 0
+	  }
+    },
+    "defaultInventory": [],
+    "npcs": {
+      "typicalPatrons": [],
+      "typicalWorkers": []
+    },
+    "economy": {
+      "imports": [],
+      "exports": [],
+	  "labor_cost": 0,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 0,
+        "luxuries": 0,
+        "materials": 0,
+        "industry": 0,
+        "magic": 0,
+        "science": 0,
+        "influence": 0,
+        "housing": 0,
+        "order": 0,
+        "food": 0
+      }
+    },
+    "description": ""
+  },
+  "tags": []
+}

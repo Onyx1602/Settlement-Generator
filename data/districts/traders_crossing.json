@@ -1,0 +1,116 @@
+{
+    "name": "Trader's Crossing",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Roadside Stall",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Peddler",
+                    "access": "public",
+                    "features": [
+                        "Portable stall cart",
+                        "Travel-worn canvas canopy"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Travel Rations",
+                        "Simple Tools",
+                        "Trinkets",
+                        "Maps",
+                        "Basic Camping Gear"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 8,
+                            "wealth": 3,
+                            "luxuries": 1,
+                            "materials": 3,
+                            "industry": 0,
+                            "magic": 0,
+                            "science": 1,
+                            "influence": 3,
+                            "housing": 0,
+                            "order": -1,
+                            "food": 4
+                        }
+                    },
+                    "description": "Small trader's crossing serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 8,
+            "wealth": 3,
+            "luxuries": 1,
+            "materials": 3,
+            "industry": 0,
+            "magic": 0,
+            "science": 1,
+            "influence": 3,
+            "housing": 0,
+            "order": -1,
+            "food": 4
+        },
+        "demographics": {
+            "population": 7,
+            "social_structure": "itinerant traders",
+            "notable_groups": [
+                "Caravan Guards",
+                "Wanderers"
+            ],
+            "notableNPCs": [
+                "Old Peddler Narik",
+                "Young Scout Pera"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Intersection of major trade roads",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Highwaymen"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on trader's crossing trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

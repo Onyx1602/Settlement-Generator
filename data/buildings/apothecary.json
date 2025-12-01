@@ -1,0 +1,80 @@
+{
+  "name": "Apothecary",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Alchemist Serin Kettleblack",
+    "access": "Shop front open to customers; laboratory access forbidden to non-staff.",
+    "features": [
+      "Herb racks",
+      "Alchemy lab",
+      "Storage cellar",
+      "Locked poison cabinet"
+    ],
+    "services": [
+      "Potions and poultices",
+      "Herbal remedies",
+      "Basic alchemical supplies"
+    ],
+    "security": "Reinforced shutters, locked cabinets, and a few alchemical traps after hours.",
+    "upkeep": 32,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Common healing potions",
+      "Antitoxins",
+      "Herbal poultices",
+      "Basic alchemical reagents",
+      "Empty vials and kits"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Adventurers",
+        "Healers and herbalists",
+        "Concerned townsfolk"
+      ],
+      "typicalWorkers": [
+        "Apothecary owner",
+        "Apprentice alchemist",
+        "Shop assistant"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Rare herbs",
+        "Glassware",
+        "Distilled alcohol"
+      ],
+      "exports": [
+        "Healing potions",
+        "Antitoxins",
+        "Herbal kits"
+      ],
+      "labor_cost": 20,
+      "settlementStats": {
+        "consumerGoods": 1,
+        "wealth": 1,
+        "luxuries": 0,
+        "materials": 0,
+        "industry": 1,
+        "magic": 2,
+        "science": 1,
+        "influence": 1,
+        "housing": 0,
+        "order": 0,
+        "food": 0
+      }
+    },
+    "description": "Shelves of dried herbs and glass vials line this fragrant shop, where ailments are treated and cautious adventurers stock up on potions."
+  },
+  "tags": [
+    "building"
+  ]
+}

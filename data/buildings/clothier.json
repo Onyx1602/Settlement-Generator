@@ -1,0 +1,79 @@
+{
+  "name": "Clothier",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Master Tailor Celeste Marrowind",
+    "access": "Open showroom; fitting rooms for customers.",
+    "features": [
+      "Showroom mannequins",
+      "Fitting rooms",
+      "Tailor's workshop",
+      "Fabric shelves"
+    ],
+    "services": [
+      "Custom clothing",
+      "Fine garments",
+      "Clothing repair"
+    ],
+    "security": "Locked cases for the most expensive garments; street patrol nearby.",
+    "upkeep": 29,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Common clothing",
+      "Fine garments",
+      "Uniform sets",
+      "Spare buttons and trim",
+      "Thread and needles"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Townsfolk",
+        "Merchants",
+        "Nobles seeking finery"
+      ],
+      "typicalWorkers": [
+        "Master tailor",
+        "Journeyman tailor",
+        "Shop assistant"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Silks",
+        "Dyes",
+        "Buttons and trim"
+      ],
+      "exports": [
+        "Fine clothing",
+        "Uniforms"
+      ],
+      "labor_cost": 18,
+      "settlementStats": {
+        "consumerGoods": 2,
+        "wealth": 2,
+        "luxuries": 2,
+        "materials": 0,
+        "industry": 1,
+        "magic": 0,
+        "science": 0,
+        "influence": 1,
+        "housing": 0,
+        "order": 0,
+        "food": 0
+      }
+    },
+    "description": "Bolts of fabric and elegant mannequins fill this boutique, where nobles commission finery and merchants seek respectable attire."
+  },
+  "tags": [
+    "building"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Gadget Day",
+    "type": "event",
+    "data": {
+        "season": "Fall",
+        "description": "Tinkerers unveil strange new contraptions, some ingenious, some questionable, all drawing curious onlookers."
+    },
+    "tags": []
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Kiln Lighting Ceremony",
+    "type": "event",
+    "data": {
+        "season": "Winter",
+        "description": "The first firing of the winter season is blessed and villagers crowd around for warmth, music, and hot drinks."
+    },
+    "tags": []
+}

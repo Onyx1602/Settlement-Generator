@@ -1,0 +1,41 @@
+{
+  "name": "",
+  "type": "district",
+  "data": {
+    "subtype": "",
+    "buildings": [],
+    "districtStats": {
+    "consumerGoods": 0,
+    "wealth": 0,
+    "luxuries": 0,
+    "materials": 0,
+    "industry": 0,
+    "magic": 0,
+    "science": 0,
+    "influence": 0,
+    "housing": 0,
+    "order": 0,
+    "food": 0
+    },
+    "demographics": {
+      "population": 0,
+      "social_structure": "",
+      "notable_groups": [],
+    "notableNPCs": []
+    },
+    "infrastructure": {
+      "transportation": "",
+      "utilities": "",
+    "security": {
+      "guardStrength": 0,
+      "threatLevel": 0,
+      "notableThreats": []
+    },
+    "parks_and_recreation": ""
+    },
+    "events": [],
+    "notable_features": [],
+    "description": ""
+  },
+  "tags": []
+}

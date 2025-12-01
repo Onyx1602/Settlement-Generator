@@ -1,0 +1,116 @@
+{
+    "name": "Street Food Court",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Food Stall Cluster",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Cook",
+                    "access": "public",
+                    "features": [
+                        "Communal benches",
+                        "Central hearth pit"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Skewers",
+                        "Stews",
+                        "Flatbreads",
+                        "Sweet Pastries",
+                        "Ale and Cider"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 9,
+                            "wealth": 3,
+                            "luxuries": 2,
+                            "materials": 2,
+                            "industry": 0,
+                            "magic": 0,
+                            "science": 0,
+                            "influence": 2,
+                            "housing": 1,
+                            "order": -1,
+                            "food": 10
+                        }
+                    },
+                    "description": "Small street food court serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 9,
+            "wealth": 3,
+            "luxuries": 2,
+            "materials": 2,
+            "industry": 0,
+            "magic": 0,
+            "science": 0,
+            "influence": 2,
+            "housing": 1,
+            "order": -1,
+            "food": 10
+        },
+        "demographics": {
+            "population": 12,
+            "social_structure": "mixed lower-class gatherings",
+            "notable_groups": [
+                "Night Shift Workers",
+                "Street Performers"
+            ],
+            "notableNPCs": [
+                "Chef Lira",
+                "Juggling Minstrel"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Bustling crossroads",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Rowdy drunks"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on street food court trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

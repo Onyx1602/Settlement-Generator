@@ -1,0 +1,9 @@
+{
+    "name": "Grand Auction Day",
+    "type": "event",
+    "data": {
+        "season": "Summer",
+        "description": "Farmers from nearby villages gather as herds are driven through the yards and sold off to the highest bidder."
+    },
+    "tags": []
+}

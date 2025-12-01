@@ -1,0 +1,54 @@
+{
+    "name": "Carouse",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "5",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 8
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Revelry",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Drinking Buddy",
+                        "relationship": "friend",
+                        "description": "You gain a friendly acquaintance from your night of revelry."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Loose Tongues",
+                        "type": "gossip",
+                        "description": "You may overhear a useful secret or rumor (DM's choice)."
+                    }
+                ]
+            }
+        ],
+        "description": "You drink, feast, and celebrate, blowing off steam and making memories (good or bad)."
+    },
+    "tags": []
+}

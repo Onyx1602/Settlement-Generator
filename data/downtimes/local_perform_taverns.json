@@ -1,0 +1,56 @@
+{
+    "name": "Perform in Taverns",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 8
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Showtime",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 30,
+                    "gp": 2,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "performance"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Tavern Regulars",
+                        "relationship": "fans",
+                        "description": "You gain a small following at a local tavern."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Audience Gossip",
+                        "type": "gossip",
+                        "description": "Your listeners share rumors and stories between songs."
+                    }
+                ]
+            }
+        ],
+        "description": "You play music, tell stories, or perform acts to entertain patrons."
+    },
+    "tags": []
+}

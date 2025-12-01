@@ -1,0 +1,114 @@
+{
+    "name": "Artisan Square",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Craftsman's Workshop",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Artisan",
+                    "access": "public",
+                    "features": [
+                        "Open-air workbench",
+                        "Display racks for goods"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Wooden Toys",
+                        "Carved Ornaments",
+                        "Simple Jewelry",
+                        "Painted Pottery"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 7,
+                            "wealth": 4,
+                            "luxuries": 3,
+                            "materials": 5,
+                            "industry": 1,
+                            "magic": 0,
+                            "science": 1,
+                            "influence": 2,
+                            "housing": 2,
+                            "order": 1,
+                            "food": 3
+                        }
+                    },
+                    "description": "Small artisan square serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 7,
+            "wealth": 4,
+            "luxuries": 3,
+            "materials": 5,
+            "industry": 1,
+            "magic": 0,
+            "science": 1,
+            "influence": 2,
+            "housing": 2,
+            "order": 1,
+            "food": 3
+        },
+        "demographics": {
+            "population": 11,
+            "social_structure": "skilled crafters",
+            "notable_groups": [
+                "Artisans' Cooperative"
+            ],
+            "notableNPCs": [
+                "Master Carver Tolin",
+                "Street Painter Elya"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Central plaza with side streets",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Petty vandals"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on artisan square trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

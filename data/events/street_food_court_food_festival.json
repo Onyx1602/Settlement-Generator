@@ -1,0 +1,9 @@
+{
+    "name": "Street Food Festival",
+    "type": "event",
+    "data": {
+        "season": "Summer",
+        "description": "Cooks compete to create the boldest flavors, filling the crossroads with new dishes and the scent of grilling meats."
+    },
+    "tags": []
+}

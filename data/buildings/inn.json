@@ -1,0 +1,81 @@
+{
+  "name": "Inn",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Innkeeper Mara Thistledown",
+    "access": "Public common room, rented private rooms on upper floors.",
+    "features": [
+      "Common room with hearth",
+      "Taproom",
+      "Private guest rooms",
+      "Stables for guests' mounts"
+    ],
+    "services": [
+      "Food and drink",
+      "Lodging",
+      "Message holding",
+      "Local rumor hub"
+    ],
+    "security": "Two hired bouncers on busy nights; sturdy locks on guest rooms.",
+    "upkeep": 45,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Common meals",
+      "Ale and wine",
+      "Guest bedding and linens",
+      "Stable feed",
+      "Basic travel supplies"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Travelers",
+        "Caravaneers",
+        "Local regulars"
+      ],
+      "typicalWorkers": [
+        "Innkeeper",
+        "Serving staff",
+        "Cook",
+        "Stablehands"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Ale and wine",
+        "Fresh produce",
+        "Firewood"
+      ],
+      "exports": [
+        "Room and board",
+        "Local gossip"
+      ],
+      "labor_cost": 18,
+      "settlementStats": {
+        "consumerGoods": 2,
+        "wealth": 1,
+        "luxuries": 1,
+        "materials": 0,
+        "industry": 0,
+        "magic": 0,
+        "science": 0,
+        "influence": 1,
+        "housing": 2,
+        "order": 1,
+        "food": 2
+      }
+    },
+    "description": "A cozy, bustling inn known for its golden gryphon crest and warm hearth. Travelers and locals mingle over hearty stews and strong ale."
+  },
+  "tags": [
+    "building"
+  ]
+}

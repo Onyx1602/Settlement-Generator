@@ -1,0 +1,48 @@
+{
+    "name": "Work",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 10
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Money",
+                "weight": 1,
+                "currency": {
+                    "cp": 1,
+                    "sp": 100,
+                    "gp": 1,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Local Business",
+                        "relationship": "acquaintance",
+                        "description": "You helped out a local business"
+                    }
+                ],
+                "knowledge": []
+            }
+        ],
+        "description": "Worked some local jobs"
+    },
+    "tags": []
+}

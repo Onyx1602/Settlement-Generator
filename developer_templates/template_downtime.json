@@ -1,0 +1,77 @@
+{
+	"name": "",
+	"type": "downtime",
+	"data": {
+		"cost": {
+			"currency": {
+				"cp": 0,
+				"sp": 0,
+				"gp": 0,
+				"pp": 0
+			},
+			"items": [
+				{
+					"name": "",
+					"quantity": 0
+				}
+			],
+			"time": {
+				"days": 30,
+				"hours": 0
+			},
+			"risks": [
+				{
+					"risk": "",
+					"injury":{
+						"name": "",
+						"damage": 0,
+						"condition": ""
+					},
+					"fail": false,
+					"capture": false,
+					"wieght": 0,
+					"description": ""				
+				}
+			]
+		},
+		"results": [
+			{
+				"result": "",
+				"weight": 0,
+				"currency": {
+					"cp": 0,
+					"sp": 0,
+					"gp": 0,
+					"pp": 0
+				},
+				"items": [
+					{
+						"name": "",
+						"quantity": 0
+					}
+				],
+				"xp": 150,
+				"skills": [],
+				"spells": [],
+				"buildings": [],
+				"vehicles": [],
+				"npcTies": [
+				{
+					"name": "",
+					"relationship": "",
+					"description": ""
+				}
+				],
+				"knowledge": [
+				{
+					"name": "",
+					"type": "",
+					"description": ""
+				}
+				]
+			}
+		],
+		"description": ""
+	},
+	"tags": []
+}

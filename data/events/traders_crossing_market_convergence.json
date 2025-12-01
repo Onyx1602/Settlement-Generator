@@ -1,0 +1,9 @@
+{
+    "name": "Market Convergence",
+    "type": "event",
+    "data": {
+        "season": "Summer",
+        "description": "Multiple caravans arrive at once, turning the crossroads into a chaotic but prosperous sprawl of goods."
+    },
+    "tags": []
+}

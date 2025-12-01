@@ -1,0 +1,81 @@
+{
+  "name": "Docks",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Guildmaster Rurik Saltbeard",
+    "access": "Open-air stalls accessible to all; icehouse for guild members only.",
+    "features": [
+      "Wooden stalls",
+      "Cutting tables",
+      "Smokery",
+      "Icehouse"
+    ],
+    "services": [
+      "Fresh fish sales",
+      "Smoked fish",
+      "Salted provisions"
+    ],
+    "security": "Night watchman patrols the icehouse; strong locks on storage doors.",
+    "upkeep": 24,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Fresh fish",
+      "Smoked fish",
+      "Salted fish barrels",
+      "Nets and lines",
+      "Crates and barrels"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Fishmongers",
+        "Innkeepers and cooks",
+        "Travelers off ships"
+      ],
+      "typicalWorkers": [
+        "Fishers",
+        "Dockhands",
+        "Guild factor",
+        "Night watchman"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Salt",
+        "Barrels",
+        "Ice blocks"
+      ],
+      "exports": [
+        "Fresh fish",
+        "Smoked fish",
+        "Salted rations"
+      ],
+      "labor_cost": 14,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 0,
+        "luxuries": 0,
+        "materials": 0,
+        "industry": 1,
+        "magic": 0,
+        "science": 0,
+        "influence": 1,
+        "housing": 0,
+        "order": 1,
+        "food": 3
+      }
+    },
+    "description": "The tang of salt and sea fills this busy stretch of docks where fishers unload their catches and haggle with buyers."
+  },
+  "tags": [
+    "building"
+  ]
+}

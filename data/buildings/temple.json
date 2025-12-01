@@ -1,0 +1,82 @@
+{
+  "name": "Temple",
+  "type": "building",
+  "data": {
+    "ownerTitle": "High Priestess Lyria Dawnstar",
+    "access": "Sanctuary open from dawn to dusk; inner sanctum restricted to clergy.",
+    "features": [
+      "Central altar",
+      "Stained glass windows",
+      "Side chapels",
+      "Bell tower"
+    ],
+    "services": [
+      "Healing rituals",
+      "Blessings",
+      "Marriage rites",
+      "Funeral services"
+    ],
+    "security": "Temple guardians on watch; divine wards protect holy relics.",
+    "upkeep": 40,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Incense and candles",
+      "Holy symbols",
+      "Prayer scrolls",
+      "Alms for the poor",
+      "Basic healing supplies"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Worshippers",
+        "The sick and poor",
+        "Pilgrims"
+      ],
+      "typicalWorkers": [
+        "High priestess",
+        "Clergy acolytes",
+        "Temple guards",
+        "Caretakers"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Incense",
+        "Holy oils",
+        "Candles"
+      ],
+      "exports": [
+        "Blessings",
+        "Healing",
+        "Charity to poor"
+      ],
+      "labor_cost": 15,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 0,
+        "luxuries": 1,
+        "materials": 0,
+        "industry": 0,
+        "magic": 2,
+        "science": 0,
+        "influence": 3,
+        "housing": 0,
+        "order": 3,
+        "food": 0
+      }
+    },
+    "description": "A radiant temple dedicated to a sun deity, its spire catching first light each morning and serving as a beacon of hope."
+  },
+  "tags": [
+    "building"
+  ]
+}

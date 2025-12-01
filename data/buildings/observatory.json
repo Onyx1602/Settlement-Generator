@@ -1,0 +1,79 @@
+{
+  "name": "Observatory",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Astromancer Idiris Cole",
+    "access": "Appointment-only; limited public lectures on clear nights.",
+    "features": [
+      "Rotating dome roof",
+      "Star charts",
+      "Telescopes",
+      "Astrological library"
+    ],
+    "services": [
+      "Star readings",
+      "Navigation charts",
+      "Scholarly research"
+    ],
+    "security": "Locked dome and library; a magical alarm on rare instruments.",
+    "upkeep": 36,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Star charts",
+      "Blank journals",
+      "Astronomical instruments",
+      "Lenses and mirrors",
+      "Ink and quills"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Scholars",
+        "Navigators",
+        "Curious nobles"
+      ],
+      "typicalWorkers": [
+        "Astromancer",
+        "Student assistants",
+        "Caretaker"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Lenses",
+        "Books",
+        "Fine instruments"
+      ],
+      "exports": [
+        "Star charts",
+        "Astrological consultations"
+      ],
+      "labor_cost": 19,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 1,
+        "luxuries": 1,
+        "materials": 0,
+        "industry": 0,
+        "magic": 2,
+        "science": 3,
+        "influence": 2,
+        "housing": 0,
+        "order": 0,
+        "food": 0
+      }
+    },
+    "description": "Perched on a hill, this domed tower peers into the heavens, its keepers charting stars and seeking omens in the night sky."
+  },
+  "tags": [
+    "building"
+  ]
+}

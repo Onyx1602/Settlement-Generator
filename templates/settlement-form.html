@@ -1,0 +1,100 @@
+<form class="settlement-form">
+  <div class="form-group">
+    <p>{{localize "settlement-tracking.instructions"}}</p>
+  </div>
+
+  <div class="form-group">
+    <label for="stName">{{localize "settlement-tracking.fields.name"}}</label>
+    <input type="text" id="stName" name="stName" value="{{initial.name}}" />
+    <span class="settle-lock-icon unlocked" data-action="toggleLock" data-target="stName" title="{{localize 'settlement-tracking.lockTooltip'}}"><i class="fas fa-lock-open"></i></span>
+  </div>
+
+  <div class="form-group" style="display:flex; gap: 8px;">
+    <div style="flex:1;">
+      <label for="stAllegiance">{{localize "settlement-tracking.fields.allegiance"}}</label>
+      <input type="text" id="stAllegiance" name="stAllegiance" value="{{initial.allegiance}}" />
+      <span class="settle-lock-icon unlocked" data-action="toggleLock" data-target="stAllegiance" title="{{localize 'settlement-tracking.lockTooltip'}}"><i class="fas fa-lock-open"></i></span>
+    </div>
+    <div style="flex:1;">
+      <label for="stPopulation">{{localize "settlement-tracking.fields.population"}}</label>
+      <input type="number" id="stPopulation" name="stPopulation" min="0" value="{{initial.population}}" />
+      <span class="settle-lock-icon unlocked" data-action="toggleLock" data-target="stPopulation" title="{{localize 'settlement-tracking.lockTooltip'}}"><i class="fas fa-lock-open"></i></span>
+    </div>
+  </div>
+
+  <div class="form-group" style="display:flex; gap: 8px;">
+    <div style="flex:1;">
+      <label for="stNpcs">{{localize "settlement-tracking.fields.notableNpcs"}}</label>
+      <textarea id="stNpcs" name="stNpcs" placeholder="{{localize 'settlement-tracking.placeholders.npcs'}}">{{initial.nNpcs}}</textarea>
+      <span class="settle-lock-icon unlocked" data-action="toggleLock" data-target="stNpcs" title="{{localize 'settlement-tracking.lockTooltip'}}"><i class="fas fa-lock-open"></i></span>
+    </div>
+    <div style="flex:1;">
+      <label for="stOrgs">{{localize "settlement-tracking.fields.notableOrgs"}}</label>
+      <textarea id="stOrgs" name="stOrgs" placeholder="{{localize 'settlement-tracking.placeholders.orgs'}}">{{initial.nOrgs}}</textarea>
+      <span class="settle-lock-icon unlocked" data-action="toggleLock" data-target="stOrgs" title="{{localize 'settlement-tracking.lockTooltip'}}"><i class="fas fa-lock-open"></i></span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="stBuildings">{{localize "settlement-tracking.fields.buildings"}}</label>
+    
+    <!-- Search Input -->
+    <input type="text" id="stBuildingSearch" placeholder="Search buildings..." style="margin-bottom: 5px;" />
+
+    <!-- Increased size from 6 to 15 for a longer menu -->
+    <select id="stBuildings" name="stBuildings" multiple size="15">
+      {{#each buildingTemplates}}
+        <option value="{{this.key}}" {{#if (includes ../initial.buildingKeys this.key)}}selected{{/if}}>{{this.name}}</option>
+      {{/each}}
+    </select>
+    <span class="settle-lock-icon unlocked" data-action="toggleLock" data-target="stBuildings" title="{{localize 'settlement-tracking.lockTooltip'}}"><i class="fas fa-lock-open"></i></span>
+    <small>{{localize "settlement-tracking.fields.buildingsHelp"}}</small>
+  </div>
+
+  <div class="form-group">
+    <label>{{localize "settlement-tracking.fields.resources.title"}}</label>
+    <div id="stResourcesSummary">
+      </div>
+  </div>
+
+  <div class="form-group" style="display:flex; gap:8px;">
+    <div style="flex:1;">
+      <label for="stParent">{{localize "settlement-tracking.fields.parent"}}</label>
+      <select id="stParent" name="stParent">
+        <option value="">{{localize "settlement-tracking.none"}}</option>
+        {{#each parentOptions}}
+          <option value="{{this.id}}" {{#if (eq ../initial.parentId this.id)}}selected{{/if}}>{{this.name}}</option>
+        {{/each}}
+      </select>
+      <span class="settle-lock-icon unlocked" data-action="toggleLock" data-target="stParent" title="{{localize 'settlement-tracking.lockTooltip'}}"><i class="fas fa-lock-open"></i></span>
+    </div>
+    <div style="flex:1;">
+      <label>{{localize "settlement-tracking.fields.children"}}</label>
+      <div class="st-children-list">
+        {{#if childSettlements.length}}
+          <ul>
+            {{#each childSettlements}}
+              <li>{{this.name}}</li>
+            {{/each}}
+          </ul>
+        {{else}}
+          <small>{{localize "settlement-tracking.noChildren"}}</small>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="stDescription">{{localize "settlement-tracking.fields.description"}}</label>
+    <textarea id="stDescription" name="stDescription" rows="4" placeholder="{{localize 'settlement-tracking.placeholders.description'}}">{{initial.description}}</textarea>
+    <span class="settle-lock-icon unlocked" data-action="toggleLock" data-target="stDescription" title="{{localize 'settlement-tracking.lockTooltip'}}"><i class="fas fa-lock-open"></i></span>
+  </div>
+
+  <!-- Modified Action Buttons Layout -->
+  <div class="form-group st-action-row">
+    <button type="button" class="st-big-btn" data-action="generate">{{localize "settlement-tracking.actions.build"}}</button>
+    <button type="button" class="st-big-btn st-randomize-btn" data-action="randomize">
+      {{localize "settlement-tracking.actions.randomize"}}
+    </button>
+  </div>
+</form>

@@ -1,0 +1,115 @@
+{
+    "name": "Flower Market",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Florist Stall",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Florist",
+                    "access": "public",
+                    "features": [
+                        "Buckets of fresh blooms",
+                        "Flower-pressing table"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Fresh Bouquets",
+                        "Potted Plants",
+                        "Wreaths",
+                        "Pressed Flowers",
+                        "Simple Perfumes"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 6,
+                            "wealth": 3,
+                            "luxuries": 4,
+                            "materials": 1,
+                            "industry": 0,
+                            "magic": 1,
+                            "science": 0,
+                            "influence": 2,
+                            "housing": 1,
+                            "order": 1,
+                            "food": 1
+                        }
+                    },
+                    "description": "Small flower market serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 6,
+            "wealth": 3,
+            "luxuries": 4,
+            "materials": 1,
+            "industry": 0,
+            "magic": 1,
+            "science": 0,
+            "influence": 2,
+            "housing": 1,
+            "order": 1,
+            "food": 1
+        },
+        "demographics": {
+            "population": 6,
+            "social_structure": "gardeners and vendors",
+            "notable_groups": [
+                "Gardeners' Society"
+            ],
+            "notableNPCs": [
+                "Petal-Seller Rinna",
+                "Temple Gardener"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Broad sunny avenue",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Bees and wasps"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on flower market trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

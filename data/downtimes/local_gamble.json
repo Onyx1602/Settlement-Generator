@@ -1,0 +1,57 @@
+{
+    "name": "Gamble",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "5",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 6
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Winnings or Losses",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "deception",
+                    "insight"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Card Shark",
+                        "relationship": "rival",
+                        "description": "A fellow gambler takes note of your presence."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Underworld Contacts",
+                        "type": "gossip",
+                        "description": "You learn of shady games or illegal activities."
+                    }
+                ]
+            }
+        ],
+        "description": "You risk your coin at dice games, cards, or other contests of chance."
+    },
+    "tags": []
+}

@@ -1,0 +1,117 @@
+{
+    "name": "Spice Row",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Spice Merchant's Booth",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Spice Trader",
+                    "access": "public",
+                    "features": [
+                        "Colorful awnings",
+                        "Spice-grinding millstone"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Exotic Spices",
+                        "Herbs",
+                        "Teas",
+                        "Dried Peppers",
+                        "Incense"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 8,
+                            "wealth": 5,
+                            "luxuries": 4,
+                            "materials": 2,
+                            "industry": 0,
+                            "magic": 1,
+                            "science": 0,
+                            "influence": 3,
+                            "housing": 1,
+                            "order": -1,
+                            "food": 5
+                        }
+                    },
+                    "description": "Small spice row serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 8,
+            "wealth": 5,
+            "luxuries": 4,
+            "materials": 2,
+            "industry": 0,
+            "magic": 1,
+            "science": 0,
+            "influence": 3,
+            "housing": 1,
+            "order": -1,
+            "food": 5
+        },
+        "demographics": {
+            "population": 9,
+            "social_structure": "traveling merchants",
+            "notable_groups": [
+                "Caravaners",
+                "Apothecary Circle"
+            ],
+            "notableNPCs": [
+                "Madame Selri (Spice Broker)",
+                "Caravan Quartermaster"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Narrow flagstone lane",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Smugglers",
+                    "Pickpockets"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on spice row trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

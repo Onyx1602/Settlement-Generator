@@ -1,0 +1,58 @@
+{
+    "name": "Study Magic",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "10",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 8
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Arcane Insight",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "arcana"
+                ],
+                "spells": [
+                    "You may learn or prepare one spell the DM approves, if you meet its requirements."
+                ],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Library or Mage Guild",
+                        "relationship": "contact",
+                        "description": "You gain a tenuous connection to the keepers of magical knowledge."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Arcane Theory",
+                        "type": "lore",
+                        "description": "You uncover a minor magical secret or piece of lore."
+                    }
+                ]
+            }
+        ],
+        "description": "You pour over spellbooks and scrolls, deepening your understanding of the arcane."
+    },
+    "tags": []
+}

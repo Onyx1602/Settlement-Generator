@@ -1,0 +1,45 @@
+{
+    "name": "Maintain Gear",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "2",
+                "sp": "",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 4
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Ready Equipment",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "smith's tools",
+                    "leatherworker's tools"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [],
+                "knowledge": []
+            }
+        ],
+        "description": "You sharpen blades, mend armor, and ensure your equipment is in top shape."
+    },
+    "tags": []
+}

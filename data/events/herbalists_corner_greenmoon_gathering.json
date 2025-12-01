@@ -1,0 +1,9 @@
+{
+    "name": "Greenmoon Gathering",
+    "type": "event",
+    "data": {
+        "season": "Spring",
+        "description": "Healers hold public demonstrations of remedies and potions beneath the full moon, offering discounted treatments."
+    },
+    "tags": []
+}

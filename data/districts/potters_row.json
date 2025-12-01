@@ -1,0 +1,115 @@
+{
+    "name": "Potter's Row",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Pottery Kilnhouse",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Potter",
+                    "access": "public",
+                    "features": [
+                        "Brick kiln",
+                        "Shelves of drying clayware"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Clay Jugs",
+                        "Bowls",
+                        "Storage Jars",
+                        "Roof Tiles",
+                        "Decorative Vases"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 8,
+                            "wealth": 3,
+                            "luxuries": 2,
+                            "materials": 8,
+                            "industry": 2,
+                            "magic": 0,
+                            "science": 1,
+                            "influence": 1,
+                            "housing": 1,
+                            "order": 0,
+                            "food": 2
+                        }
+                    },
+                    "description": "Small potter's row serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 8,
+            "wealth": 3,
+            "luxuries": 2,
+            "materials": 8,
+            "industry": 2,
+            "magic": 0,
+            "science": 1,
+            "influence": 1,
+            "housing": 1,
+            "order": 0,
+            "food": 2
+        },
+        "demographics": {
+            "population": 9,
+            "social_structure": "artisan families",
+            "notable_groups": [
+                "Potters' Circle"
+            ],
+            "notableNPCs": [
+                "Kilnmaster Drogan",
+                "Glazer Mira"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Dusty brick-lined path",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Kiln fires"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on potter's row trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

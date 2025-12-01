@@ -1,0 +1,80 @@
+{
+  "name": "Granary",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Factor Hobb Grindle",
+    "access": "Weighing yard open to farmers; grain stores restricted.",
+    "features": [
+      "Weighing scales",
+      "Large silos",
+      "Loading ramps",
+      "Office ledger room"
+    ],
+    "services": [
+      "Grain storage",
+      "Bulk trade",
+      "Seasonal loans to farmers"
+    ],
+    "security": "Night guards, heavy locks, and a resident rat-catching cat brigade.",
+    "upkeep": 34,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Stored grain",
+      "Animal feed",
+      "Seed grain",
+      "Empty sacks",
+      "Weighing ledgers"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Farmers",
+        "Millers",
+        "Carters and merchants"
+      ],
+      "typicalWorkers": [
+        "Grain factor",
+        "Clerks",
+        "Laborers",
+        "Night watch"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Grain from outlying farms",
+        "Sacks",
+        "Wagon parts"
+      ],
+      "exports": [
+        "Bulk grain",
+        "Animal feed"
+      ],
+      "labor_cost": 21,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 2,
+        "luxuries": 0,
+        "materials": 1,
+        "industry": 2,
+        "magic": 0,
+        "science": 0,
+        "influence": 1,
+        "housing": 0,
+        "order": 1,
+        "food": 4
+      }
+    },
+    "description": "The town's food lifeline, where harvests are weighed, recorded, and stored in towering granaries against the lean months."
+  },
+  "tags": [
+    "building"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+    "name": "Herbalist's Corner",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Herbalist Shop",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Herbalist",
+                    "access": "public",
+                    "features": [
+                        "Hanging bundles of herbs",
+                        "Pestle-and-mortar station"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Healing Herbs",
+                        "Poultices",
+                        "Salves",
+                        "Tonic Bottles",
+                        "Dried Flowers"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 7,
+                            "wealth": 3,
+                            "luxuries": 2,
+                            "materials": 3,
+                            "industry": 0,
+                            "magic": 2,
+                            "science": 2,
+                            "influence": 2,
+                            "housing": 1,
+                            "order": 1,
+                            "food": 4
+                        }
+                    },
+                    "description": "Small herbalist's corner serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 7,
+            "wealth": 3,
+            "luxuries": 2,
+            "materials": 3,
+            "industry": 0,
+            "magic": 2,
+            "science": 2,
+            "influence": 2,
+            "housing": 1,
+            "order": 1,
+            "food": 4
+        },
+        "demographics": {
+            "population": 8,
+            "social_structure": "healers and hedge-witches",
+            "notable_groups": [
+                "Village Healers",
+                "Apprentice Herbalists"
+            ],
+            "notableNPCs": [
+                "Old Matron Ysri",
+                "Young Herbalist Jann"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Shaded side street",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Poisonous lookalike plants"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on herbalist's corner trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

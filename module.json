@@ -1,0 +1,44 @@
+{
+  "id": "settlement-generator",
+  "title": "Settlement Generator",
+  "version": "0.2",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "OnyxStudios",
+      "email": "Onyx1602yt@gmail.com",
+      "url": "https://patreon.com/OnyxStudios?",
+      "discord": "Onyx1602#8924",
+      "flags": {}
+    },
+    {
+      "name": "SirNiloc",
+      "email": "sirniloc@ravn-quest.com",
+      "url": "https://patreon.com/user?u=193990&utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink",
+      "discord": "sirniloc",
+      "flags": {}
+    }
+  ],
+  "url": "https://patreon.com/OnyxStudios",
+  "flags": {
+    "canUpload": true
+  },
+  "description": "",
+  "scripts": [
+    "data/settlement-collection-main.js",
+    "scripts/settlement-main.js"
+  ],
+  "styles": [
+    "styles/settlement-style.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}

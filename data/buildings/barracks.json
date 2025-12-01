@@ -1,0 +1,79 @@
+{
+  "name": "Barracks",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Captain of the Guard Thorne Ironhelm",
+    "access": "Restricted to city watch and authorized visitors.",
+    "features": [
+      "Drill yard",
+      "Armory",
+      "Holding cells",
+      "Dormitory bunks"
+    ],
+    "services": [
+      "City watch headquarters",
+      "Temporary holding of prisoners"
+    ],
+    "security": "Constant guard presence, locked armory, and reinforced walls.",
+    "upkeep": 50,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Standard weapons",
+      "Guard uniforms",
+      "Shields",
+      "Practice dummies",
+      "Basic rations"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "City guards",
+        "Officers",
+        "Detained criminals"
+      ],
+      "typicalWorkers": [
+        "Captain of the guard",
+        "Sergeants",
+        "Stable orderlies",
+        "Quartermaster"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Weapons",
+        "Armor",
+        "Rations"
+      ],
+      "exports": [
+        "Law enforcement",
+        "Patrols"
+      ],
+      "labor_cost": 30,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 0,
+        "luxuries": 0,
+        "materials": 0,
+        "industry": 1,
+        "magic": 0,
+        "science": 0,
+        "influence": 2,
+        "housing": 1,
+        "order": 4,
+        "food": 0
+      }
+    },
+    "description": "The disciplined heart of the town's defenses, where guards muster, train, and march out to keep the peace."
+  },
+  "tags": [
+    "building"
+  ]
+}

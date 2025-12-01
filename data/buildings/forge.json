@@ -1,0 +1,80 @@
+{
+  "name": "Forge",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Master Smith Darun Bronzewood",
+    "access": "Workshop floor open to customers; back rooms restricted to staff.",
+    "features": [
+      "Stone forge",
+      "Quenching trough",
+      "Weapon racks",
+      "Armor stands"
+    ],
+    "services": [
+      "Weapon crafting",
+      "Armor repair",
+      "Tool forging"
+    ],
+    "security": "Heavy shutters and barred doors; owner sleeps above the forge.",
+    "upkeep": 35,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Common weapons",
+      "Basic armor pieces",
+      "Tools and hardware",
+      "Spare horseshoes",
+      "Scrap metal"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Guards and soldiers",
+        "Farmers and craftsmen",
+        "Adventurers"
+      ],
+      "typicalWorkers": [
+        "Master smith",
+        "Apprentice smith",
+        "Laborer"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Iron ingots",
+        "Coal",
+        "Leather fittings"
+      ],
+      "exports": [
+        "Weapons",
+        "Armor",
+        "Tools"
+      ],
+      "labor_cost": 22,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 1,
+        "luxuries": 0,
+        "materials": 2,
+        "industry": 3,
+        "magic": 0,
+        "science": 0,
+        "influence": 1,
+        "housing": 0,
+        "order": 1,
+        "food": 0
+      }
+    },
+    "description": "The rhythmic clash of hammer on anvil echoes from this stout stone forge, where blades, armor, and tools are shaped for the town."
+  },
+  "tags": [
+    "building"
+  ]
+}

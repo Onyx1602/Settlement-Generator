@@ -1,0 +1,57 @@
+{
+    "name": "Research Lore",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "5",
+                "gp": "1",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 8
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Discovery",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "history",
+                    "investigation"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Sage",
+                        "relationship": "contact",
+                        "description": "A learned scholar who helps guide your research."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Obscure Lore",
+                        "type": "lore",
+                        "description": "You uncover a useful fact about a person, place, or thing."
+                    }
+                ]
+            }
+        ],
+        "description": "You consult sages, libraries, and old records to uncover hidden knowledge."
+    },
+    "tags": []
+}

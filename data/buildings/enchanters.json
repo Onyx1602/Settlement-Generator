@@ -1,0 +1,78 @@
+{
+  "name": "Enchanters",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Magister Voren Tal",
+    "access": "Shop floor open; enchanting chambers strictly off limits.",
+    "features": [
+      "Display cases of enchanted items",
+      "Enchantment circle",
+      "Material vault"
+    ],
+    "services": [
+      "Item identification",
+      "Minor enchantments",
+      "Scroll crafting"
+    ],
+    "security": "Arcane locks, alarm spells, and a bound elemental guardian.",
+    "upkeep": 55,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Minor enchanted trinkets",
+      "Spell scrolls",
+      "Identification services",
+      "Arcane focus items",
+      "Gem components"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Adventurers",
+        "Wealthy patrons",
+        "Mages and scholars"
+      ],
+      "typicalWorkers": [
+        "Magister enchanter",
+        "Apprentice mage",
+        "Shop clerk"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Rare reagents",
+        "Gemstones",
+        "Spell scrolls"
+      ],
+      "exports": [
+        "Enchanted trinkets",
+        "Magical services"
+      ],
+      "labor_cost": 25,
+      "settlementStats": {
+        "consumerGoods": 0,
+        "wealth": 3,
+        "luxuries": 3,
+        "materials": 0,
+        "industry": 1,
+        "magic": 4,
+        "science": 1,
+        "influence": 2,
+        "housing": 0,
+        "order": 1,
+        "food": 0
+      }
+    },
+    "description": "An expensive boutique of glowing wares and softly humming enchantment circles, catering to adventurers and nobles with coin to spare."
+  },
+  "tags": [
+    "building"
+  ]
+}

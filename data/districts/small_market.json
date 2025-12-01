@@ -1,0 +1,139 @@
+{
+    "name": "Market",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "General Store",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Shopkeeper",
+                    "access": "public",
+                    "features": [
+                        "Small storage cellar",
+                        "Storefront shelving"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Grains",
+                        "Dried Goods",
+                        "Meat and Fish",
+                        "Textiles",
+                        "Cleaning Supplies",
+                        "Candles",
+                        "Sewing Supplies",
+                        "Bandages",
+                        "Salt",
+                        "Fabric"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [
+                            "Food",
+                            "Textiles"
+                        ],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 10,
+                            "wealth": 0,
+                            "luxuries": 1,
+                            "materials": 5,
+                            "industry": 0,
+                            "magic": 0,
+                            "science": 0,
+                            "influence": 0,
+                            "housing": 0,
+                            "order": 0,
+                            "food": 1
+                        }
+                    },
+                    "description": "Small store that serves the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "food",
+                    "general",
+                    "common"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 10,
+            "wealth": 4,
+            "luxuries": 3,
+            "materials": 7,
+            "industry": 0,
+            "magic": 0,
+            "science": 1,
+            "influence": 3,
+            "housing": 2,
+            "order": -1,
+            "food": 6
+        },
+        "demographics": {
+            "population": 10,
+            "social_structure": "merchant class",
+            "notable_groups": [
+                "Merchant's Guild",
+                "Gaurds"
+            ],
+            "notableNPCs": [
+                "Gaurd Captain",
+                "Guildmaster (Merchant)"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Cobblestone roads",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 3,
+                "threatLevel": 3,
+                "notableThreats": [
+                    "Theives",
+                    "Conartists"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [
+            {
+                "name": "Harvest Festival",
+                "type": "event",
+                "data": {
+                    "season": "Fall",
+                    "description": "Celebrate a good harvest!"
+                },
+                "tags": [
+                    "fall",
+                    "agriculture"
+                ]
+            }
+        ],
+        "notable_features": [],
+        "description": ""
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

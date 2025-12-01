@@ -1,0 +1,81 @@
+{
+  "name": "Tea House",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Proprietor Lady Nyssa Vel",
+    "access": "Public tea room; private booths by reservation.",
+    "features": [
+      "Cushioned seating",
+      "Private booths",
+      "Indoor garden",
+      "Performance corner"
+    ],
+    "services": [
+      "Fine teas",
+      "Light meals",
+      "Private meeting rooms",
+      "Occasional performances"
+    ],
+    "security": "Discreet house guards and peepholes to monitor private booths.",
+    "upkeep": 38,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Fine teas",
+      "Light snacks and sweets",
+      "Porcelain tea sets",
+      "Incense and candles",
+      "Private room reservations"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Nobles",
+        "Merchants",
+        "Spies and schemers"
+      ],
+      "typicalWorkers": [
+        "Proprietor",
+        "Servers",
+        "Musicians",
+        "House guards"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Exotic teas",
+        "Fine porcelain",
+        "Spices"
+      ],
+      "exports": [
+        "High-end hospitality",
+        "Information trading"
+      ],
+      "labor_cost": 20,
+      "settlementStats": {
+        "consumerGoods": 1,
+        "wealth": 2,
+        "luxuries": 2,
+        "materials": 0,
+        "industry": 0,
+        "magic": 0,
+        "science": 0,
+        "influence": 2,
+        "housing": 0,
+        "order": 1,
+        "food": 1
+      }
+    },
+    "description": "A refined establishment where nobles and schemers sip fragrant teas, gossip, and negotiate delicate matters behind silken curtains."
+  },
+  "tags": [
+    "building"
+  ]
+}

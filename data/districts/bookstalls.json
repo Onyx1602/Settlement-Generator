@@ -1,0 +1,117 @@
+{
+    "name": "Bookstalls",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Open-Air Bookstall",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Bookseller",
+                    "access": "public",
+                    "features": [
+                        "Covered tables of books",
+                        "Reading nook"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Chapbooks",
+                        "Local Histories",
+                        "Prayer Pamphlets",
+                        "Maps",
+                        "Used Tomes"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 5,
+                            "wealth": 4,
+                            "luxuries": 2,
+                            "materials": 1,
+                            "industry": 0,
+                            "magic": 1,
+                            "science": 4,
+                            "influence": 3,
+                            "housing": 1,
+                            "order": 1,
+                            "food": 0
+                        }
+                    },
+                    "description": "Small bookstalls serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 5,
+            "wealth": 4,
+            "luxuries": 2,
+            "materials": 1,
+            "industry": 0,
+            "magic": 1,
+            "science": 4,
+            "influence": 3,
+            "housing": 1,
+            "order": 1,
+            "food": 0
+        },
+        "demographics": {
+            "population": 5,
+            "social_structure": "scribes and students",
+            "notable_groups": [
+                "Scribes",
+                "Students"
+            ],
+            "notableNPCs": [
+                "Scholar-Priest Dorn",
+                "Curious Street Urchin"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Quiet stone lane",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Censors",
+                    "Book thieves"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on bookstalls trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

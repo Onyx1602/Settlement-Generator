@@ -1,0 +1,116 @@
+{
+    "name": "Textile Lane",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Clothier's Shop",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Cloth Merchant",
+                    "access": "public",
+                    "features": [
+                        "Mannequins in the window",
+                        "Bolts of fabric stacked high"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Wool Cloth",
+                        "Linen",
+                        "Dyes",
+                        "Thread",
+                        "Ready-made Garments"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 8,
+                            "wealth": 4,
+                            "luxuries": 3,
+                            "materials": 7,
+                            "industry": 1,
+                            "magic": 0,
+                            "science": 1,
+                            "influence": 3,
+                            "housing": 2,
+                            "order": 0,
+                            "food": 2
+                        }
+                    },
+                    "description": "Small textile lane serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 8,
+            "wealth": 4,
+            "luxuries": 3,
+            "materials": 7,
+            "industry": 1,
+            "magic": 0,
+            "science": 1,
+            "influence": 3,
+            "housing": 2,
+            "order": 0,
+            "food": 2
+        },
+        "demographics": {
+            "population": 10,
+            "social_structure": "craft guild families",
+            "notable_groups": [
+                "Weavers' Guild"
+            ],
+            "notableNPCs": [
+                "Mistress Vela (Guild Weaver)",
+                "Apprentice Tailor"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Straight trade street",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Smoldering lamps",
+                    "Moth infestations"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on textile lane trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}

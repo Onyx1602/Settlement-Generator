@@ -1,0 +1,9 @@
+{
+    "name": "Bolt Bargain Week",
+    "type": "event",
+    "data": {
+        "season": "Fall",
+        "description": "Weavers and tailors slash prices on fabrics, encouraging townsfolk to ready their wardrobes for the colder months."
+    },
+    "tags": []
+}

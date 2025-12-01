@@ -1,0 +1,79 @@
+{
+  "name": "Millworks",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Millwright Tamsin Broadwater",
+    "access": "Work floor for staff; grain drop-off and pick-up for customers.",
+    "features": [
+      "Waterwheel",
+      "Grinding stones",
+      "Elevator belts",
+      "Maintenance workshop"
+    ],
+    "services": [
+      "Grain milling",
+      "Flour production",
+      "Mechanical repairs"
+    ],
+    "security": "Locked doors after hours; river gate chain to prevent tampering.",
+    "upkeep": 33,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Milled flour",
+      "Cracked grain",
+      "Spare gears and belts",
+      "Empty grain sacks",
+      "Maintenance tools"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Farmers",
+        "Bakers",
+        "Merchants"
+      ],
+      "typicalWorkers": [
+        "Millwright",
+        "Laborers",
+        "Apprentice mechanic"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Grain",
+        "Millstones",
+        "Spare gears"
+      ],
+      "exports": [
+        "Flour",
+        "Milled grain"
+      ],
+      "labor_cost": 23,
+      "settlementStats": {
+        "consumerGoods": 1,
+        "wealth": 1,
+        "luxuries": 0,
+        "materials": 1,
+        "industry": 3,
+        "magic": 0,
+        "science": 1,
+        "influence": 1,
+        "housing": 0,
+        "order": 0,
+        "food": 3
+      }
+    },
+    "description": "A thundering waterwheel powers this industrious mill, turning farmers’ grain into the flour that feeds the town."
+  },
+  "tags": [
+    "building"
+  ]
+}

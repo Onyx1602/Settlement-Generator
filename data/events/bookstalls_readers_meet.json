@@ -1,0 +1,9 @@
+{
+    "name": "Readers' Meet",
+    "type": "event",
+    "data": {
+        "season": "Winter",
+        "description": "Scholars host public readings and debates, sharing hot tea and tales to keep the cold at bay."
+    },
+    "tags": []
+}

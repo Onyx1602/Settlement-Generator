@@ -1,0 +1,57 @@
+{
+    "name": "Temple Service",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 8
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Divine Favor",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "religion",
+                    "medicine"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Temple Clergy",
+                        "relationship": "ally",
+                        "description": "Priests and acolytes who respect your devotion."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Divine Lore",
+                        "type": "lore",
+                        "description": "You learn about a tenet, prophecy, or relic tied to the faith."
+                    }
+                ]
+            }
+        ],
+        "description": "You assist at a local temple, tending the sick, cleaning shrines, or leading prayers."
+    },
+    "tags": []
+}

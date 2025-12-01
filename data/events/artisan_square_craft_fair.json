@@ -1,0 +1,9 @@
+{
+    "name": "Craft Fair",
+    "type": "event",
+    "data": {
+        "season": "Spring",
+        "description": "Artisans showcase their finest work in friendly competition, with prizes awarded by the local guild."
+    },
+    "tags": []
+}

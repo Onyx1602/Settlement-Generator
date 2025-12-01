@@ -1,0 +1,9 @@
+{
+    "name": "Caravan Arrival",
+    "type": "event",
+    "data": {
+        "season": "Summer",
+        "description": "A line of trader wagons rolls into town with rare spices, drawing curious nobles and commoners alike to Spice Row."
+    },
+    "tags": []
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Gather Rumors",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "5",
+                "sp": "",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 6
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Information",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "insight",
+                    "persuasion"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Informant",
+                        "relationship": "contact",
+                        "description": "A local gossip or informant who feeds you information."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Local Rumors",
+                        "type": "hook",
+                        "description": "You learn one or more rumors the DM may tie to future adventures."
+                    }
+                ]
+            }
+        ],
+        "description": "You spend time in taverns and markets, listening and asking questions."
+    },
+    "tags": []
+}

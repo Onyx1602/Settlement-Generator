@@ -1,0 +1,79 @@
+{
+  "name": "Stableyard",
+  "type": "building",
+  "data": {
+    "ownerTitle": "Stablemaster Jorek Halden",
+    "access": "Yard open to customers; tack room and loft staff-only.",
+    "features": [
+      "Covered stalls",
+      "Hayloft",
+      "Tack room",
+      "Training ring"
+    ],
+    "services": [
+      "Animal stabling",
+      "Horse trading",
+      "Basic riding lessons"
+    ],
+    "security": "Fenced yard, locked gates at night, and loyal stablehands.",
+    "upkeep": 27,
+    "hoursOfOperation": {
+      "open": {
+        "hour": 8,
+        "minute": 0
+      },
+      "close": {
+        "hour": 20,
+        "minute": 0
+      }
+    },
+    "defaultInventory": [
+      "Feed and hay",
+      "Saddles and tack",
+      "Blankets and brushes",
+      "Basic riding gear",
+      "Stable tools"
+    ],
+    "npcs": {
+      "typicalPatrons": [
+        "Travelers",
+        "Messengers",
+        "Local horse owners"
+      ],
+      "typicalWorkers": [
+        "Stablemaster",
+        "Grooms",
+        "Apprentice handlers"
+      ]
+    },
+    "economy": {
+      "imports": [
+        "Feed grain",
+        "Saddles and tack",
+        "Straw bedding"
+      ],
+      "exports": [
+        "Trained mounts",
+        "Messenger services"
+      ],
+      "labor_cost": 18,
+      "settlementStats": {
+        "consumerGoods": 1,
+        "wealth": 1,
+        "luxuries": 0,
+        "materials": 0,
+        "industry": 1,
+        "magic": 0,
+        "science": 0,
+        "influence": 1,
+        "housing": 1,
+        "order": 0,
+        "food": 1
+      }
+    },
+    "description": "A busy yard filled with whickering horses and clucking grooms, serving travelers and locals in need of four-legged transport."
+  },
+  "tags": [
+    "building"
+  ]
+}

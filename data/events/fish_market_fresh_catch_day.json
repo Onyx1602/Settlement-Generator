@@ -1,0 +1,9 @@
+{
+    "name": "Fresh Catch Day",
+    "type": "event",
+    "data": {
+        "season": "Spring",
+        "description": "Boats arrive at dawn with the first big hauls of the season; stalls overflow with discounted fish and lively haggling."
+    },
+    "tags": []
+}

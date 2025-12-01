@@ -1,0 +1,9 @@
+{
+    "name": "Blossom Parade",
+    "type": "event",
+    "data": {
+        "season": "Spring",
+        "description": "Children march through the streets with flower crowns and garlands, showering passersby in petals."
+    },
+    "tags": []
+}

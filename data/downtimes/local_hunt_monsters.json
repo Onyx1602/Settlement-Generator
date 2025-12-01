@@ -1,0 +1,62 @@
+{
+    "name": "Hunt Monsters",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 10
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Trophies",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 25,
+                    "gp": 2,
+                    "pp": 0
+                },
+                "items": [
+                    {
+                        "name": "Monster Trophy",
+                        "quantity": 1
+                    }
+                ],
+                "xp": "",
+                "skills": [
+                    "survival",
+                    "perception"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Hunter's Lodge",
+                        "relationship": "contact",
+                        "description": "A group of hunters who respect your prowess."
+                    }
+                ],
+                "knowledge": [
+                    {
+                        "name": "Monster Habits",
+                        "type": "lore",
+                        "description": "You gain information about a particular creature or region."
+                    }
+                ]
+            }
+        ],
+        "description": "You track down dangerous creatures on the outskirts of civilization."
+    },
+    "tags": []
+}

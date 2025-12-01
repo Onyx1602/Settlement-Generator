@@ -1,0 +1,50 @@
+{
+    "name": "Train a Skill",
+    "type": "downtime",
+    "data": {
+        "cost": {
+            "currency": {
+                "cp": "",
+                "sp": "5",
+                "gp": "",
+                "pp": ""
+            },
+            "items": [],
+            "time": {
+                "days": 0,
+                "hours": 8
+            },
+            "risks": []
+        },
+        "results": [
+            {
+                "result": "Practice",
+                "weight": 1,
+                "currency": {
+                    "cp": 0,
+                    "sp": 0,
+                    "gp": 0,
+                    "pp": 0
+                },
+                "items": [],
+                "xp": "",
+                "skills": [
+                    "one skill or tool of your choice (DM's approval)"
+                ],
+                "spells": [],
+                "buildings": [],
+                "vehicles": [],
+                "npcTies": [
+                    {
+                        "name": "Trainer",
+                        "relationship": "mentor",
+                        "description": "A trainer or tutor oversees your practice."
+                    }
+                ],
+                "knowledge": []
+            }
+        ],
+        "description": "You dedicate time to practicing a particular skill or tool."
+    },
+    "tags": []
+}

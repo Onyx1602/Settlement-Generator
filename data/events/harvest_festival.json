@@ -1,0 +1,12 @@
+{
+    "name": "Harvest Festival",
+    "type": "event",
+    "data": {
+        "season": "Fall",
+        "description": "Celebrate a good harvest!"
+    },
+    "tags": [
+        "fall",
+        "agriculture"
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "name": "Fish Market",
+    "type": "district",
+    "data": {
+        "subtype": "economic",
+        "buildings": [
+            {
+                "name": "Fishmonger's Stall",
+                "type": "building",
+                "data": {
+                    "ownerTitle": "Fishmonger",
+                    "access": "public",
+                    "features": [
+                        "Ice-packed fish tables",
+                        "Hanging nets and drying racks"
+                    ],
+                    "services": [],
+                    "security": "low",
+                    "upkeep": 1,
+                    "hoursOfOperation": {
+                        "open": {
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    "defaultInventory": [
+                        "Fresh Fish",
+                        "Salted Fish",
+                        "Shellfish",
+                        "Fishing Nets",
+                        "Hooks and Lines"
+                    ],
+                    "npcs": {
+                        "typicalPatrons": [
+                            "Townsfolk",
+                            "Travelers"
+                        ],
+                        "typicalWorkers": []
+                    },
+                    "economy": {
+                        "imports": [],
+                        "exports": [],
+                        "labor_cost": 10,
+                        "settlementStats": {
+                            "consumerGoods": 9,
+                            "wealth": 3,
+                            "luxuries": 1,
+                            "materials": 4,
+                            "industry": 0,
+                            "magic": 0,
+                            "science": 0,
+                            "influence": 1,
+                            "housing": 1,
+                            "order": -1,
+                            "food": 8
+                        }
+                    },
+                    "description": "Small fish market serving the local population's everyday needs."
+                },
+                "tags": [
+                    "local",
+                    "common",
+                    "market"
+                ]
+            }
+        ],
+        "districtStats": {
+            "consumerGoods": 9,
+            "wealth": 3,
+            "luxuries": 1,
+            "materials": 4,
+            "industry": 0,
+            "magic": 0,
+            "science": 0,
+            "influence": 1,
+            "housing": 1,
+            "order": -1,
+            "food": 8
+        },
+        "demographics": {
+            "population": 8,
+            "social_structure": "working-class fishers",
+            "notable_groups": [
+                "Dock Workers",
+                "Fishermen's Guild"
+            ],
+            "notableNPCs": [
+                "Old Man Karrin (Veteran Fisher)",
+                "Guild Weigher"
+            ]
+        },
+        "infrastructure": {
+            "transportation": "Wet cobblestone alleys",
+            "utilities": "Well",
+            "security": {
+                "guardStrength": 2,
+                "threatLevel": 2,
+                "notableThreats": [
+                    "Rotten stock",
+                    "Seagull swarms"
+                ]
+            },
+            "parks_and_recreation": ""
+        },
+        "events": [],
+        "notable_features": [],
+        "description": "A compact commercial district focused on fish market trade."
+    },
+    "tags": [
+        "Common",
+        "Economy"
+    ]
+}
